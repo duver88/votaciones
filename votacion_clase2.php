@@ -151,8 +151,16 @@
 </head>
 <body>
     <div class="container">
+
         <div class="row justify-content-center">
             <div class="col-md-8">
+            <div class="card-header">
+            <img src="img/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 150px; width: auto; border-radius: 25px;">
+            <br>
+            
+        </div>
+        <br>
+
                 <h2>Votación Clase 2 - Candidatos</h2>
                 <br>
                 <br>
@@ -223,7 +231,7 @@
 
 
     <!-- Botón "Salir" -->
-    <button id="btnSalir" class="btn btn-danger" onclick="window.location.href = 'index.php';">Salir</button>
+    <button id="btnSalir" class="btn btn-danger" onclick="window.location.href = 'index.php';">SALIR</button>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -285,3 +293,4 @@
     </script>
 </body>
 </html>
+

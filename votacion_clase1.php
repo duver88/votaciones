@@ -111,6 +111,7 @@
             <img src="img/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 150px; width: auto; border-radius: 25px;">
             <br>
             </div>
+            
                 <h2>Votación Clase 1 - Candidatos</h2>
                 <br>
                 <br>

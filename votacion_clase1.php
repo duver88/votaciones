@@ -5,6 +5,7 @@
     <title>Votación Clase 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" type="img/logo.jpg" href="img/logo.jpg">
 
     <style>
         body {
@@ -85,7 +86,7 @@
             top: 20px;
             right: 20px;
             font-size: 24px;
-            padding: 15px 30px;
+            padding: 15px 15px;
             z-index: 9999;
         }
 
@@ -106,6 +107,10 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
+            <div class="card-header">
+            <img src="img/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 150px; width: auto; border-radius: 25px;">
+            <br>
+            </div>
                 <h2>Votación Clase 1 - Candidatos</h2>
                 <br>
                 <br>

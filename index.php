@@ -49,19 +49,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Iniciar Sesión</title>
+    <title>Votaciones</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="img/logo.jpg" href="img/logo.jpg">
+
 </head>
 <body>
     <br>
     <button id="accesibilityBtn" class="btn btn-secondary accessibility-btn">Accesibilidad</button>
 
+
+    
     <div class="container">
     <div class="card text-center align-middle" style="max-width: 400px; margin: 0 auto; margin-top: 10%;">
-        <div class="card-header">Iniciar Sesión</div>
+    
+        
+        <div class="card-header">
+            <img src="img/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 100px; width: auto; border-radius: 25px;">
+            <br>
+            Iniciar Sesion
+        </div>
+
         <div class="card-body">
             <!-- Contenido del formulario -->
             <form action="index.php" method="POST">
